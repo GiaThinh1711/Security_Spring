@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded',function (){
     document.forms['loginForm']['btnSubmit'].onclick = function (){
         console.log(document.forms['loginForm']['username'].value)
         console.log(document.forms['loginForm']['password'].value)
-        var registerApiUrl = 'http://localhost:8080/api/v1/login'
+        var loginApiUrl = 'http://localhost:8080/api/v1/login'
         var username = document.forms['loginForm']['username'].value
         var password = document.forms['loginForm']['password'].value
         var obj = {
